@@ -1,0 +1,1 @@
+setInterval(function(){var _=document.body.querySelectorAll('#pagelet_pokes li a.uiIconText[ajaxify]');for(var a=0;a<_.length;a++)_[a].click()},2000)
