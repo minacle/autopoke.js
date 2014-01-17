@@ -1,5 +1,6 @@
 # autopoke.js
-## how to use
-1. access [pokes](https://www.facebook.com/pokes).
-2. write `javascript:setInterval(function(){var _=document.body.querySelectorAll('#pagelet_pokes [ajaxify*="/poke_inline.php"]'),a=0;for(;a<_.length;a++)_[a].click()},2000)` on address bar.
-3. fire!
+## How to use
+1. Access [pokes](https://www.facebook.com/pokes).
+2. Write `javascript:setInterval(function(){var _=document.body.querySelectorAll('#poke_live_new [ajaxify*="/pokes/inline/"]'),a=0;for(;a<_.length;a++)_[a].click()},2000)` on address bar.
+If you're using Firefox, evaluate `setInterval(function(){var _=document.body.querySelectorAll('#poke_live_new [ajaxify*="/pokes/inline/"]'),a=0;for(;a<_.length;a++)_[a].click()},2000)` in Web Console.
+3. Fire!
