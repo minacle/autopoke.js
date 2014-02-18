@@ -1,1 +1,1 @@
-setInterval(function(){var _=document.body.querySelectorAll('#poke_live_new [ajaxify*="/pokes/inline/"]'),a=0;for(;a<_.length;a++)_[a].click()},2000)
+(function(a){setInterval(function(){if(a.length>0)a.pop().click();else for(var b=document.body.querySelectorAll("div[id^=poke_live_item]"),c=0,d;c<b.length;c++)(d=b[c].querySelector('[ajaxify^="/pokes/inline/"][class*=selected]'))&&a.push(d)},2e3)})([])
